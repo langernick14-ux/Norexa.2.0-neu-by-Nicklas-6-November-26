@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Norexa AI",
+  "version": "1.0.0",
+  "description": "Ask Norexa questions about the webpage you are viewing.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["http://localhost:8787/*"],
+  "action": {
+    "default_title": "Ask Norexa",
+    "default_popup": "popup.html"
+  }
+}
